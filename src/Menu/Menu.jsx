@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
+import './Menu.css'
 
 
 export default function Menu() {
@@ -16,8 +17,8 @@ export default function Menu() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <NavLink to="/comedia">Comedia</NavLink>
-            <NavLink to="/independientes">Independientes</NavLink>
+            <NavLink className="link" to="/comedia">Comedia</NavLink>
+            <NavLink className="link" to="/independientes">Independientes</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
