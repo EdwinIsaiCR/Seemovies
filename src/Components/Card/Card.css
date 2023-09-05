@@ -1,0 +1,17 @@
+.card {
+    width: 250px;
+    border-radius: 18px;
+    box-shadow: 0 2px 4px rgb(0, 0,0, 0.1);
+    margin: 15px;
+    margin-left: 35px;
+}
+
+
+.red-icon{
+    color: red;
+}
+
+.heart{
+    margin-right: 5px;
+    text-align: end;
+}

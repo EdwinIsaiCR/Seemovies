@@ -1,0 +1,33 @@
+.equis{
+    text-align: end;
+    margin-top: 20px;
+}
+
+.detail-img{
+    width: 100%;
+}
+
+.container{
+    width: 100vh;
+}
+
+@media (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .otrafila{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-img{
+        margin: 15px;
+        width: 50%;
+    }
+    .equis{
+        text-align: left;
+    }
+    .sinopsis{
+        width: 55%;
+    }
+  }
