@@ -16,8 +16,8 @@ export default function Menu() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <NavLink href="/comedia">Comedia</NavLink>
-            <NavLink href="/independientes">Independientes</NavLink>
+            <NavLink to="/comedia">Comedia</NavLink>
+            <NavLink to="/independientes">Independientes</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
