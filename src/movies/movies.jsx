@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import "./movies.css"
 
 
-export default function Movies({genero}) {
+export default function Movies(props) {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   const [pelisFilter, setPelisFilter] = useState ([]);
@@ -12,7 +12,7 @@ export default function Movies({genero}) {
 
   useEffect(() => {
     if (loading) {
-      fetch(`https://api-pelis-back.onrender.com/${genero}`)
+      fetch(`https://api-pelis-back.onrender.com/${props.genero}`)
         .then((response) => response.json())
         .then((data) => {
           console.log(data);
