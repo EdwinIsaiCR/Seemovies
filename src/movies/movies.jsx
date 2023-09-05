@@ -1,12 +1,10 @@
-import Card from "../components/Card/Card.jsx";
+import Card from "../Components/Card/CardComponet.jsx";
 import Spinner from 'react-bootstrap/Spinner';
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Form from 'react-bootstrap/Form';
 import { useState, useEffect } from "react";
 import "./movies.css"
 
 
-export default function Movies(props) {
+export default function Movies({genero}) {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   const [pelisFilter, setPelisFilter] = useState ([]);
@@ -14,7 +12,7 @@ export default function Movies(props) {
 
   useEffect(() => {
     if (loading) {
-      fetch(`https://api-pelis-back.onrender.com/${props.genero}`)
+      fetch(`https://api-pelis-back.onrender.com/${genero}`)
         .then((response) => response.json())
         .then((data) => {
           console.log(data);

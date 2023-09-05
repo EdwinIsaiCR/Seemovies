@@ -1,10 +1,9 @@
-import React from 'react'
 import { useLocation } from 'react-router-dom'
 import CloseButton from 'react-bootstrap/CloseButton';
 import {Link} from 'react-router-dom'
 import './DetailMovie.css'
 
-export default function DetailMovie(props) {
+export default function DetailMovie() {
     const location = useLocation();
     const movie = location.state;
   return (
