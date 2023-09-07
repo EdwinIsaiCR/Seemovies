@@ -13,7 +13,7 @@ export default function DetailMovie() {
                 <div className="equis">
                     <Link to={`/${movie.genero}`}><CloseButton /></Link>
                 </div>
-                <h1>{movie.titulo}</h1>
+                <h1 className='detail-titulo'>{movie.titulo}</h1>
             </div>
         </div>
         <div className="row otrafila">

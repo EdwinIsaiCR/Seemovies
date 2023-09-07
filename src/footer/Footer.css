@@ -46,7 +46,7 @@
   
   /* Media Queries */
   
-  @media (max-width: 600px) {
+  @media (max-width: 850px) {
     .footer-distributed .footer-left, .footer-distributed .footer-right {
       text-align: center;
     }

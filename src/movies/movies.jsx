@@ -53,15 +53,10 @@ export default function Movies(props) {
         <h1 className="titulo text-center">Peliculas de {data.genero}</h1>
         
        <div className="container-fluid mt-5" >
-        <div className="row mb-5">
-          <div className="col">
-          <div className="form__group">
-            <input type="text" className="form__input" id="name" placeholder="Buscar pelicula por titulo..." onChange={handlerSearch} />
+  
+            <input type="text" className="form__input" id="name" placeholder="Buscar pelicula por titulo..." onChange={handlerSearch} autoComplete="off" />
             <label className="form__label">Buscar pelicula por titulo...</label>
-          </div>
-         
-          </div>
-        </div>
+        
         <div className="row">
           
             

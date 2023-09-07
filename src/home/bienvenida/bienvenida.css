@@ -16,7 +16,7 @@
     background-color: rgba(77, 76, 76, 0.801);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 850px) {
     .carousel{
         display: flex;
         margin-top: 50px;

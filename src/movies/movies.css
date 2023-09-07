@@ -1,5 +1,6 @@
 h1{
     margin: 15px;
+    background-color: aqua;
 }
 
 .cardHover {
@@ -17,7 +18,7 @@ h1{
 .form__label {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    margin-left: 43rem;
+    margin-left: 48rem;
     margin-top: 0.7rem;
     display: block;
     transition: all 0.3s;
@@ -47,19 +48,12 @@ h1{
   }
 
   @media (max-width: 600px) {
+    
     .form__input {
-      font-family: 'Roboto', sans-serif;
-      color: #333;
-      font-size: 1.2rem;
-        margin: 0 auto;
-      padding: 1rem 2rem;
-      border-radius: 0.2rem;
-      background-color: rgb(255, 255, 255);
-      border: none;
       width: 85%;
       
     }
     .spinner{
-      width: 58%;
+      right: 10%;
     }
   }
