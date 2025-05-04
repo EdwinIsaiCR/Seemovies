@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Card from "../components/Card/Card";
+import Card from "../../Components/Card/Card";
 import Spinner from 'react-bootstrap/Spinner';
 import "./movies.css";
 

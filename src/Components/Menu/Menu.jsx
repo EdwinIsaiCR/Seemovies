@@ -10,7 +10,7 @@ export default function Menu() {
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img 
-            src="https://static.vecteezy.com/system/resources/previews/019/017/450/original/valorant-logo-transparent-free-png.png" 
+            src="logo.webp" 
             alt="SeeMovie Logo" 
             width="50"
             className="me-2"
