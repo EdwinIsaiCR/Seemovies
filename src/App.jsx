@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Menu from './Components/Menu/Menu';
-import Bienvenida from './pages/home/bienvenida/bienvenida';
+import Bienvenida from './pages/home/bienvenida';
 import Movies from './pages/movies/movies';
 import DetailMovie from './pages/movies/detailMovie/DetailMovie';
 import "bootstrap/dist/css/bootstrap.min.css";
