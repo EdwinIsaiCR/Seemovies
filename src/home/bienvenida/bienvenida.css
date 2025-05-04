@@ -1,0 +1,37 @@
+.carousel-img-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+.carousel-caption .bg-dark {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.title-car {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+
